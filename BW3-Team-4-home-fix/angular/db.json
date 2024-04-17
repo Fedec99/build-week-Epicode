@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "antonio@email.it",
+      "password": "$2a$10$DKRbKjF5C8m0KdhHISkcs.Pvz//LenQKgKAM6HzR8sJMG0AI7YXVS",
+      "name": "antonio",
+      "lastName": "schipani",
+      "favourites": [
+        10,
+        11,
+        3,
+        1,
+        4
+      ],
+      "id": 1
+    },
+    {
+      "email": "danilo@email.it",
+      "password": "$2a$10$F58W4qTK6ke5QYKMzQKQWuSz6AXssP1.lra8xCQ6p3fMMh2eO214K",
+      "name": "danilo",
+      "lastName": "nebulosi",
+      "favourites": [
+        3,
+        5,
+        8,
+        7
+      ],
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "title": "dsd",
+      "category": "economia",
+      "content": "sdsd",
+      "authorId": 1,
+      "likes": 1,
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "content": "commento",
+      "userId": 1,
+      "postId": 4,
+      "id": 1
+    }
+  ]
+}
